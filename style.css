@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav
+{
+    width: 100%;
+    height: 50px;
+    background-color: #7e9c57;
+    line-height: 50px;
+    padding: 0px 80px;
+}
+nav .logo
+{
+    float: left;
+}
+nav .logo h1
+{
+    letter-spacing: 1.0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul
+{
+   float: right;
+}
+nav ul li
+{
+    list-style:none ;
+    display: inline-block;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+nav ul li a:hover
+{
+    color:#000000;
+}
+nav ul .active
+{
+    color: #000000;
+}
+.checkbtn
+{
+    color:#fff ;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;   
+}
+#check
+{
+    display: none;
+}
+@media screen  and (max-width:538px){
+    nav{
+        padding: 0px 50px;
+    }
+    .checkbtn
+    {
+        display: block;
+    }
+   nav ul
+   {
+
+       width: 100%;
+       height: 100vh;
+       background-color: #53694c;
+       position: fixed;
+       top: 50px;
+       left:-100%;
+       text-align: center;
+       transition: 0.4s ease;
+
+   }
+   nav ul li{
+    display: block;
+    margin: 50px 0px;
+    line-height: 20px;
+}
+#check:checked ~ ul
+{
+    left:0;
+}
+}
+select
+{
+    width:100px ;
+    height:30px ;
+    border: none;
+}
+
+/****************************************************************/
+.band
+{
+    width:100% ;
+    height:600px ;
+    background-image: url(images/nnnnnnnnnnnnnnnnnnnnnnnnn.jpg);
+    background-size: cover;
+}
+.banner h1
+{
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: red;
+    font-weight: bold;
+    
+}
+.banner h2
+{
+   margin-top: 190px;
+   margin-left: 100px;
+   font-weight: bold;
+   font-size: 35px;
+}
+.banner p
+{
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.banner .par p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.btn button
+{
+    background-color: yellow;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border:yellow;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+}
+.btn span
+{
+    margin-left: 60px;
+    color: white;
+    font-size: 30px;
+}
+.btn span img
+{
+    width:60px ;
+    height: 60px;
+    position: relative;
+    margin-right:0px;
+    top:20px ;
+}
+/******************************************end1*****************************************************/
+.banner2 .par1 p
+{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.banner2 h3
+{
+    text-align: center;
+    margin-top: 10px;
+}
+/**************************************end6776868*********************************/
+.box 
+{
+    width:270px ;
+    height:300px ;
+    box-shadow: 30px white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.box img
+{
+    justify-items: center;
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+}
+.box p1
+{
+    font-size: 15px;
+    margin-left:0px ;
+    top: 30px;
+}
+.box h3
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/************************************end**********************************************/  
+.box1
+{
+    width:270px ;
+    height:350px ;
+    box-shadow: 30px white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.box1 img
+{
+    
+    width: 267px;
+    height: 250px;
+    border-radius: 30px 30px 0px 0px;
+}
+.box1 h3
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.box1 span
+{
+    float: right;
+    margin-right: 15px;
+}
+.fa-location-arrow
+{
+    margin-left: 15px;
+}
+.fa-location-arrow span
+{
+    margin-left: 20px;
+    color: gray;
+}
+/*****************************************end****************************************/
+
+
+/*******************************************end**********************************/
+/*************************************************************************/
+.box3
+{
+   
+    width:450px ;
+    height:370px ;
+    float: left;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.box3 img
+{
+    width:400px ;
+    height:200px ;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.box3 h3
+{
+    margin-left: 15px;
+}
+.box3 span
+{
+    margin-left: 15px;
+}
+.box3 i
+{
+    padding-left: 7px;
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+/***************************************************************/
+
+
+.box6
+{
+    width:450px ;
+    height:370px ;
+    float: left;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2 .fa-circle-o
+{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.box2 .fa-circle-o:hover
+{
+    background: black;
+    border-radius: 20px;
+}
+.box6 img
+{
+    width: 110px;
+    height: 100px;
+    border-radius:50%;
+}
+.box6 p
+{
+    font-size: 18px;
+    color: gray;
+}
+/***********************************************************************/
+.logos img
+{
+    width:200px ;
+    height:100px ;
+    margin-left: 100px;
+}
+/*******************************************************/
+.foot
+{
+    
+    width: 800px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 40px 20px 0px 0px;
+    background-color: rgb(241, 168, 180);
+}
+.foot p
+{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    margin-right: 0px;
+}
+input
+{    
+    width: 300px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: 80px;
+    padding-left: 15px;
+
+}
+button
+{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    border-color:gray ;
+}
+/****************************************************************************/
+.box12
+{
+    width:250px ;
+    height:350px ;
+    
+    box-shadow: 30px white;
+    float: left;
+    margin-top: 60px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.box12 h1
+{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top:25px;
+    color: black;
+    position: relative;
+}
+
+
+.box12 p
+{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+    color:gray ;
+    
+}
+.box12 h3
+{
+    font-size: 20px;
+    margin-right: 90px;
+    top: 100px;
+    color:gray ;
+    top: 40px;
+    position: relative;
+    margin-left: 20px;
+    padding: 10px;
+}
+.box12 i
+{
+   margin-top: 40px;
+   margin-left: 30px;
+   font-size: 40px;
+   background-color: gray;
+   width: 40px;
+   height: 40px;
+   padding-left: 3px;
+   border-radius: 10px;
+   color: white;
+}
+.box12 img
+{
+    width:200px ;
+    height:90px ;
+    
+}
+/*************************************************************************/
+.box2
+{
+    width:500px ;
+    height:350px ;
+    box-shadow: 30px white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.box2 h4
+{
+    font-size: 30px;
+}
+.box2 h5
+{
+    font-size: 15px;
+}
+
+.box2 span 
+{
+    margin-left: 90px;
+    color: black;
+  
+}
+.box2 h3
+{
+    margin-left: 90px;
+    font-size: 20px;
+    
+}
